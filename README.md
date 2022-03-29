@@ -3,7 +3,7 @@ scRNA Tutorial Rstudio and Jupyter
 ```
 install.packages("dplyr")
 install.packages("Seurat")
-install.packages("patchwork")```
+install.packages("patchwork")
 # or 
 R -e "install.packages('dplyr')"
 R -e "install.packages('Seurat')"
