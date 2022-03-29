@@ -1,5 +1,6 @@
-# tutorial_scrna
-scRNA Tutorial Rstudio and Jupyter
+# scRNA Tutorial Rstudio and Jupyter
+How to install and update R package
+
 ```
 install.packages("dplyr")
 install.packages("Seurat")
