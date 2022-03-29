@@ -14,3 +14,9 @@ R -e "install.packages('patchwork')"
 R -e "update.packages()"
 # update, without prompts for permission/clarification
 R -e "update.packages(ask = FALSE)"
+
+# fix error
+cat ~/.Renviron 
+LD_LIBRARY_PATH="/opt/conda/lib:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server"
+install.packages('hdf5r')
+install.packages('rlang')
