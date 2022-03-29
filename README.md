@@ -20,10 +20,17 @@ cat ~/.Renviron
 LD_LIBRARY_PATH="/opt/conda/lib:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server"
 install.packages('hdf5r')
 install.packages('rlang')
+
 # or run R as root
 Sys.setenv(LD_LIBRARY_PATH="/opt/conda/lib:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server")
 install.packages('hdf5r')
 install.packages('rlang')
+
+# bash shell
+export LD_LIBRARY_PATH="/opt/conda/lib:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server"
+R -e "install.packages('hdf5r')"
+R -e "install.packages('rlang')"
+
 # How to remove package
 remove.packages("name")
 # How to find the package
