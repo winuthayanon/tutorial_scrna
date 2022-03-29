@@ -24,3 +24,7 @@ install.packages('rlang')
 Sys.setenv(LD_LIBRARY_PATH="/opt/conda/lib:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server")
 install.packages('hdf5r')
 install.packages('rlang')
+# How to remove package
+remove.packages("name")
+# How to find the package
+find.package("name")
